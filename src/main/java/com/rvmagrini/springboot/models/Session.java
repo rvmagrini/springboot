@@ -1,5 +1,6 @@
 package com.rvmagrini.springboot.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "sessions")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Session {
 
     @Id
