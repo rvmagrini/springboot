@@ -16,3 +16,4 @@
 
 ### 5: DEPLOYING SPRING BOOT APP
 - [5.1] Switch Spring Boot embedded container
+- [5.2] Create WAR Deployment file for external container
