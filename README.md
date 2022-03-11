@@ -12,3 +12,4 @@
 
 ### 4: SPRING BOOT CONFIG
 - [4.1] Use Spring properties in code
+- [4.2] Override Spring Boot with Java Config
