@@ -13,3 +13,6 @@
 ### 4: SPRING BOOT CONFIG
 - [4.1] Use Spring properties in code
 - [4.2] Override Spring Boot with Java Config
+
+### 5: DEPLOYING SPRING BOOT APP
+- [5.1] Switch Spring Boot embedded container
